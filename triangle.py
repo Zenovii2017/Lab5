@@ -61,7 +61,7 @@ class Triangle():
     def area(self):
         """
         return area of triangle
-        :return:
+        :return: float
         """
         import math
         a = self.len_a
