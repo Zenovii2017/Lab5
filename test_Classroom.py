@@ -1,4 +1,9 @@
 def Test_Classroom():
+    """
+    test class Classroom
+    return count of errors
+    :return: int
+    """
     errors = 0
     try:
         import Classroom
