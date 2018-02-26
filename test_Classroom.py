@@ -6,13 +6,13 @@ def test_Classroom():
     """
     errors = 0
     try:
-        import Classroom
+        import classroom
     except:
         errors += 1
     try:
-        classroom_016 = Classroom.Classroom('016', 80, ['PC', 'projector',\
+        classroom_016 = classroom.Classroom('016', 80, ['PC', 'projector',\
                                                         'mic'])
-        classroom_007 = Classroom.Classroom('007', 12, ['TV'])
+        classroom_007 = classroom.Classroom('007', 12, ['TV'])
     except:
         errors += 1
     try:

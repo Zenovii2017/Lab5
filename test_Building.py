@@ -5,8 +5,8 @@ def test_Building():
     """
     errors = 0
     try:
-        import Classroom as classroom
-        import Building
+        import classroom
+        import building
     except:
         errors += 1
     try:
@@ -15,7 +15,7 @@ def test_Building():
         classroom_007 = classroom.Classroom('007', 12, ['TV'])
         classroom_008 = classroom.Classroom('008', 25, ['PC', 'projector'])
         classrooms = [classroom_016, classroom_007, classroom_008]
-        building = Building.AcademicBuilding('Kozelnytska st. 2a', classrooms)
+        building = building.AcademicBuilding('Kozelnytska st. 2a', classrooms)
     except:
         errors += 1
     try:
