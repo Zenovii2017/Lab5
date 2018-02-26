@@ -1,4 +1,4 @@
-def Test_Classroom():
+def test_Classroom():
     """
     test class Classroom
     return count of errors
@@ -36,4 +36,4 @@ def Test_Classroom():
     return errors
 
 
-print(Test_Classroom())
+print('There are {} errors.'.format(test_Classroom()))
