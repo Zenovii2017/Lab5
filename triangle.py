@@ -23,6 +23,22 @@ class Triangle():
         self.len_b = point_B.lenght(point_C)
         self.len_c = point_C.lenght(point_A)
 
+    def __str__(self):
+        """
+        its for print user
+        :return: str
+        """
+        return 'Three lenght of side : {}, {}, {}'.format(self.len_a,\
+                                                          self.len_b,\
+                                                          self.len_c)
+
+    def __repr__(self):
+        """
+        its for ptint of programmist
+        :return: str
+        """
+        return self.len_a, self.len_b, self.len_c
+
     def is_triangle(self):
         """
         calculate if this triangle can exist
