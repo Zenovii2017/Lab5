@@ -43,3 +43,13 @@ class AcademicBuilding():
         for i in self.classrooms:
             sentence +='\n' + str(i)
         return sentence
+
+    def __repr__(self):
+        """
+        return str
+        its for programist
+        """
+        sentence = self.adress
+        for i in self.classrooms:
+            sentence += ' ' + str(i)
+        return sentence

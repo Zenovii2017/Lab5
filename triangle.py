@@ -34,7 +34,7 @@ class Triangle():
 
     def __repr__(self):
         """
-        its for ptint of programmist
+        its for ptint of programist
         :return: str
         """
         return self.len_a, self.len_b, self.len_c
