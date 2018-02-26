@@ -4,7 +4,7 @@
 
 class Triangle():
     """
-    class AcademicBuilding
+    class Triangle
     have parameter point_A, point_B, point_C
     have function:
         is_triangle():
