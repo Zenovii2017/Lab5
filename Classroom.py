@@ -60,5 +60,3 @@ class Classroom():
         sentence = 'Classroom({}, {}, {})'.format(self.number,\
                                self.capacity, self.equimpent)
         return sentence
-
-
